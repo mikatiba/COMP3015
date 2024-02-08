@@ -1,0 +1,20 @@
+body{
+    background-color: azure;
+}
+h1{
+    color: red;
+    background-color; lightgoldenrodyellow;
+    padding: 20px;
+    border: 4px dotted orange;
+}
+p{
+    background-color: papayawhip;
+    padding: 20px 30px;
+}
+#inventario{
+    font-style: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid red;
+}
+.special{
+    
+}
