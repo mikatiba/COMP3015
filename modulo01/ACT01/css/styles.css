@@ -1,0 +1,33 @@
+body{
+    background-image: url("fotobackground.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-familiy: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align:  center;
+}
+
+header{
+    background-color: green;
+    color: white;
+}
+
+section{
+    background-color: turquoise;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+footer{
+    background-color: green;
+    color: white;
+}
+
+.imagen{
+    width: 250px;
+    height: 315px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
