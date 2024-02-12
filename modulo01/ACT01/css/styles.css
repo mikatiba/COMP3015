@@ -1,33 +1,63 @@
 body{
-    background-image: url("fotobackground.jpeg");
+ 
+    text-align: center;
+    font-familiy: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+body.home{
+    background-image: url("fotobackground1.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    font-familiy: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align:  center;
+}
+
+body.acerca-de{
+    background: linear-gradient(skyblue,lightgreen);
+}
+
+body.como-ayudar{
+    background: linear-gradient(skyblue,lightgreen);
 }
 
 header{
-    background-color: green;
-    color: white;
-}
-
-section{
+    padding-top: 10px;
+    padding-bottom: 5px;
     background-color: turquoise;
-    border-bottom: 1px solid #E1E1E1;
+    color: black;
 }
 
 footer{
-    background-color: green;
-    color: white;
+    position: sticky;
+    top: 100%;
+    background-color: turquoise;
+    color: black;
+}
+.navegador{
+    background: Arial; 
+    font-family: sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-.imagen{
-    width: 250px;
-    height: 315px;
-    border-radius: 25px;
-    border: 2px solid black;
+ul{
+    list-style: none;
 }
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color:blue;
+}
+
+.foto{
+   width: 600px;
+    height: auto;
+}
+
+
+
