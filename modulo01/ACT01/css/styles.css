@@ -26,14 +26,14 @@ body.como-ayudar{
 header{
     padding-top: 10px;
     padding-bottom: 5px;
-    background-color: turquoise;
+    background: linear-gradient(skyblue, lightgreen);
     color: black;
 }
 
 footer{
     position: sticky;
     top: 100%;
-    background-color: turquoise;
+    background: linear-gradient(skyblue, lightgreen);
     color: black;
 }
 .navegador{
