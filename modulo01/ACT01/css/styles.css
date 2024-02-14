@@ -5,22 +5,16 @@ body{
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    background-color: lightgreen;
 }
 
-body.home{
-    background-image: url("fotobackground1.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+header, section, footer{
+    padding: 20px;
 }
 
-body.acerca-de{
-    background: linear-gradient(skyblue,lightgreen);
-}
-
-body.como-ayudar{
-    background: linear-gradient(skyblue,lightgreen);
+section{
+    background: linear-gradient(skyblue, lightgreen);
+    
 }
 
 header{
@@ -30,33 +24,21 @@ header{
     color: black;
 }
 
+
+
 footer{
     position: sticky;
     top: 100%;
     background: linear-gradient(skyblue, lightgreen);
     color: black;
 }
-.navegador{
-    background: Arial; 
-    font-family: sans-serif;
-    padding-right: 15px;
-    padding-left: 15px;
-}
 
-ul{
-    list-style: none;
-}
-
-nav li a{
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 0px 30px;
-    color:blue;
-}
 
 .foto{
-   width: 600px;
+    border: 5px solid;
     height: auto;
+    width: 45%;
+
 }
 
 
