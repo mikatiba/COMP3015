@@ -12,11 +12,10 @@ body {
 }
 
 #state-design {
-    display: grid;
-    grid-template-areas:
-        "h1 h1 h1"
-        "article article article";
-    grid-template-columns: 1fr 1fr 1fr;
-        
+   display: grid;
+   grid-gap: 20px;
+}
 
+#state-design h1{
+    grid-column: 1/4;
 }
