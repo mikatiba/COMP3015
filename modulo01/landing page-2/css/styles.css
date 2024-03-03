@@ -1,3 +1,8 @@
+header{
+    background-color: darkseagreen;
+}
+
+
 body {
     margin: 0;
     display: grid;
@@ -9,6 +14,8 @@ body {
     grid-gap: 20px;
     padding: 20px;
     background-color: ghostwhite;
+    text-align: center;
+    
 }
 
 #state-design {
@@ -18,4 +25,44 @@ body {
 
 #state-design h1{
     grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+#state-design{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#state-design{
+    background-color: darkseagreen;
+}
+
+article img{
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    #state-design{
+        display: block;
+    }
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: olivedrab;
+}
+
+a:hover{
+    color: darkorange;
 }
